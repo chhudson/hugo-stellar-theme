@@ -5,7 +5,8 @@
     <ul class="actions">
       {{range $button := .Site.Params.footer.action }}
         <li>
-          <a href="{{ $button.href }}" class="button {{ $button.customClass }}">{{ $button.buttontext }}</a>
+          <a href="linktoTOS" class="button {{ $button.customClass }}">{{ $button.buttontext }}</a>
+          <a href="linktoPP" class="button {{ $button.customClass }}">{{ $button.buttontext2 }}</a>
         </li>
       {{ end }}
     </ul>
